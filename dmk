@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MATOZ</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="modal">
+            <div class="modal-head">
+                <header class="modal-text_0">
+                    <h1 class="text_1">MATOZ</h1>
+                    <h1 class="text_2">Đổi mật khẩu</h1>
+                </header>
+                <div class="modal-body">
+                    <label for="new_password" class="modal-label">
+                        Nhập mật khẩu mới:
+                    </label>       
+                    <input id="new_password" type="text" class="modal-new_password-input">  
+
+                    <label for="confirm_new_password" class="modal-label">
+                        Xác nhận mật khẩu: 
+                    </label>
+                    
+                    <input id="confirm_new_password" type="text" class="modal-new_password-input">
+                    <button id="modal-xac_nhan">Xác nhận!</button>
+                </div>
+                <!--
+                     <footer class="modal-footer">
+                   <p class="modal-reset">Quay lại <a href="">Đăng nhập</a></p> 
+                </footer>
+                -->
+            </div>
+        </div>
+    </body>
+</html>
