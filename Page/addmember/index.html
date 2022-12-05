@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" href="style.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">  
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+  
+  </head>
+  
+  <body>
+    
+    <button class="addmemberbutton" onclick="document.getElementById('id01').style.display='block'"><image src="https://cdn.glitch.global/db5203f8-ebc9-4b93-b541-b0b310c3b22c/add-user-icon.png?v=1670172559362" width="40px"/></button>
+      
+      <div id="id01" class="addmembermodal">
+        
+      <div class="addmemberbox">
+        <form>
+
+          <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="addmemberclose" title="Đóng">&times;</span>
+          </div>
+
+          <div class="container">
+            
+            <label for="uname" ><b>Email</b></label> <br/>
+            <input class="addmemberinput" type="text" placeholder="Nhập Email" name="uname" required> <br/>
+
+            <label for="uname"><b>Số điện thoại</b></label> <br/>
+            <input class="addmemberinput" type="text" placeholder="Nhập số điện thoại" name="uname" required> <br/>
+           
+            <button class="addmembercheckbutton" type="submit">Đồng ý</button>
+            
+          </div>
+          
+        </form>
+        
+      </div>
+        
+    </div>
+    
+  </body>
+
+</html>
+
