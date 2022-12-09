@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MATOZ</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="modal">
+            <div class="modal-container">
+                <header class="modal-header">
+                    <h1 class="text-2">Tạo tài khoản</h1>
+                </header>
+                <form onsubmit="signup()">
+                <div class="modal-body">
+                    <div class="modal-head_body">
+                            <div class="modal-body">
+                                <label class="modal-label">
+                                    Tên đăng nhập:
+                                </label>
+                                <div class="input__field">
+                                    <input id="username" type="text" class="modal-input" placeholder="Tên đăng nhập" />  
+                                </div>
+                                <label class="modal-label">
+                                    Nhập mật khẩu: 
+                                </label>
+                                <div class="input__field">
+                                <input id="password" type="password" class="modal-input" placeholder="Mật khẩu" />
+                                </div>
+                                <label class="modal-label">
+                                    Xác nhận mật khẩu:
+                                </label>
+                                <div class="input__field">
+                                    <input id="password_cf" type="password" class="modal-input" placeholder="Xác nhận mật khẩu" />  
+                                </div>
+                                <label class="modal-label">
+                                    Nhập email:
+                                </label>
+                                <div class="input__field">
+                                    <input id="email" type="text" class="modal-input" placeholder="Email" />  
+                                </div>
+                                <label class="modal-label">
+                                    Nhập số điện thoại:
+                                </label>
+                                <div class="input__field">
+                                    <input id="sdt" type="tel" class="modal-phone-input" placeholder="Số điện thoại" />  
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                        <div class="modal-footer_body">
+                            <button class="btn btn-signup" id="modal-dang_ky">Đăng Ký</button>
+                        </div>
+            </div>
+                <footer class="modal-footer">
+                   <p class="modal-reset">Quay lại <a href="../login/login.html">Đăng nhập</a></p> 
+                </footer>
+            </div>
+        </div>
+        <script src="signup.js"></script>
+    </body>
+</html> 

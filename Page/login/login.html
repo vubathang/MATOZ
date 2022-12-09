@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MATOZ</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="modal">
+            <div class="modal-head">
+                <header class="modal-text_0">
+                    <h1 class="text_1">MATOZ</h1>
+                    <h1 class="text_2">Đăng nhập</h1>
+                </header>
+                <form onsubmit="login()">
+                    <div class="modal-body">
+                        <label class="modal-label">
+                            Tên đăng nhập:
+                        </label>
+                        <div class="input__field">
+                            <input id="username" type="text" class="modal-username-input" placeholder="Tên đăng nhập" />  
+                        </div>
+                        <label class="modal-label">
+                            Mật khẩu:
+                        </label>
+                        <div class="input__field">
+                            <input id="password" type="password" class="modal-password-input" placeholder="Mật khẩu" />
+                        </div>
+                </form>
+                    <button class="btn btn-login" id="modal-xac_nhan">Đăng Nhập</button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-reset"><a href="../fgpassword/fgpassword.html">Quên mật khẩu</a></p>
+                <p class="modal-reset">Chưa có tài khoản? <a href="../signup/signup.html">Đăng kí</a></p>
+             </footer>
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>
