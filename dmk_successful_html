@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MATOZ</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="modal">
+            <div class="modal-head">
+                <header class="modal-text_0">
+                    <h1 class="text_1">MATOZ</h1>
+                </header>
+                <div class="modal-body">
+                    <h1 class="successful">Đổi mật khẩu thành công!</h1>
+                    <button id="modal-xac_nhan">Đăng nhập!</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
