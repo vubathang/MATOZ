@@ -17,6 +17,7 @@ function signup(e){
         var json = JSON.stringify(user);
         localStorage.setItem(name,json);
         alert("Đăng ký thành công");
+        window.location.href = './../login/login.html'
     }
 }
 
